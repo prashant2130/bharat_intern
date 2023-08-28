@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    z-index: 100;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+    height: 32px;
+    background-color: "none";
+
+}
+
+#Netflix-logo{
+    min-width: 8vw;
+    height: 8vw;
+}
+#language{
+    font-size: 1.4vw;
+    color: rgb(218, 218, 218);
+    opacity: 100%;
+    background-color: black;
+    border: none;
+}
+#In
+{
+    width: 90px;
+    height: 40px;
+    opacity: 100%;
+   font-size: 1.4vw;
+   font-weight: 600;
+   list-style: none;
+   background-color: rgb(224,16, 16);
+   color: rgb(210, 210, 210);
+   border-radius: 3px;
+   border: none;
+
+}
+
+#main-image{
+    position: relative;
+    min-width: 100%;
+    height: 50vw;
+    /* opacity: 0.6; */
+}
+
+#main-image-container h2{
+    position: absolute;
+    text-align: center;
+    left: 24vw;
+    font-size: 4.1vw;
+    top: 10vw;
+}
+
+#main-image-container h3{
+    position: absolute;
+    text-align: center;
+    left: 32vw;
+    font-size: 2.5vw;
+    top: 21vw;
+}
+
+#main-image-container p {
+    position: absolute;
+    text-align: center;
+    left: 26vw;
+    font-size: 1.7vw;
+    top: 26vw;
+}
+
+
+
+#main-image-container span{
+    position: absolute;
+    text-align: center;
+    left: 30vw;
+    /* font-size: 1.7vw; */
+    top: 33vw;
+}
+
+#searchBar-email{
+    min-width: 30vw;
+    height: 3.5vw;
+    text-align: left;
+    font-size: 1.3vw;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Getting-started-btn{
+    min-width: 15vw;
+    height: 3.6vw;
+    font-size: 1.5vw;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+}
+
+#paragraph-section-1,#paragraph-section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#paragraph-section-2,#paragraph-section-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+.section-1-para,.section-2-para,.section-3-para,.section-4-para{
+    align-self: center;
+}
+
+#log-in-para{
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+#log-in-email{
+    display: flex;
+    flex: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#same-heading2{
+
+    font-size: 5vw;
+}
+
+#same-heading3{
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+hr{
+    margin: 3px;
+    border: 2px solid gainsboro;
+}
+#image-paragraph{
+    width: 333px;
+    height: 343px;
+      
+}
+
+#contact_container
+{
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 2vw;
+    justify-content: space-around;
+}
+#contactNo{
+    margin: 32px;
+}
+#contact_container a{
+    color: rgba(255, 255, 255, 0.418);
+    display: block;
+    text-decoration: none;
+}
+
+#span{
+    color: black;
+}
+
+#drop_down,#drop_down1{
+    max-width: 50vw;
+    background-color: rgb(39, 38, 38);
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+}
+
+#rotator{
+    font-size: 2.5vw;
+}
+
+#faqH3{
+    font-size: 2.3vw;
+}
